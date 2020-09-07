@@ -1,0 +1,153 @@
+/*Estilização do Header*/
+nav {
+    padding: 0.6rem 0rem 0.6rem 0rem;
+    background-color: #000;
+}
+
+body {
+    background-color: #000;
+}
+
+.wrap {
+    margin: 0rem 8rem 0rem 8rem;
+}
+
+.itens-justify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-menu {
+    margin: 0em 1em 0em 1em;
+    list-style-type: none;
+}
+
+.nav-item-menu a {
+    color: #fff;
+}
+
+.nav-item-menu a:hover {
+    color: #fdc500;
+}
+
+/*Estilização dos Botões*/
+.btn-primary-small {
+    padding: 0.8rem;
+    background-color: #ffd500;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-primary-small:hover {
+    background-color: #fdc500
+}
+
+.btn-primary-small:focus {
+    outline: none;
+}
+
+.btn-outline-small {
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    background: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-outline-small:hover {
+    border: 1px solid #fdc500;
+    color: #fdc500;
+}
+
+.btn-outline-small:focus {
+    outline: none;
+}
+
+.btn-outline-small {
+    margin-left: 0.8rem;
+}
+
+/*Estilização da main*/
+main {
+    height: 100vh;
+    background-image: linear-gradient(to right,rgba(0,0,0,1), rgba(0,0,0,0)), url(../assets/HomeScreen.jpg);
+    background-position: top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.wrap-main {
+    padding-top: 18rem;
+}
+
+.text-gray {
+    color: #a3a3a3;
+}
+
+.clas-indicativa {
+    border: 1px solid #a3a3a3;
+    padding: 2px;
+}
+
+.container-row {
+    margin-top: 6rem;
+    padding: 1em;
+    border-radius: 2px;
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(5%,#333),color-stop(95%,#181818));
+    box-shadow: 8px 5px 16px 0 rgba(0,0,0,.37);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Estilização da galeria*/
+.galeria {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+/*Estilização da elenco*/
+.elenco {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.item-elenco {
+    margin-top: 4rem;
+}
+
+.img-elenco img {
+    width: 14rem;
+    border: 1px solid #fdc500;
+    background-color: #333;
+}
+
+.text-elenco {
+    display: flex;
+    justify-content: center;
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(5%,#333),color-stop(95%,#181818));
+}
+
+.text-elenco a {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0em 1em 0em;
+    color: #ffd500;
+    width: 100%;
+}
+
+.text-elenco:hover,
+.text-elenco a:hover {
+    color: #000;
+    background-color: #ffd500;
+}
