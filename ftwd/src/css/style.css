@@ -2,6 +2,7 @@
 nav {
     padding: 0.6rem 0rem 0.6rem 0rem;
     background-color: #000;
+    z-index: 1;
 }
 
 body {
@@ -9,7 +10,8 @@ body {
 }
 
 .wrap {
-    margin: 0rem 8rem 0rem 8rem;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .itens-justify {
@@ -81,6 +83,7 @@ main {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 .wrap-main {
@@ -102,6 +105,7 @@ main {
     border-radius: 2px;
     background-image: -webkit-gradient(linear,left top,right top,color-stop(5%,#333),color-stop(95%,#181818));
     box-shadow: 8px 5px 16px 0 rgba(0,0,0,.37);
+    position: relative;
 }
 
 .row {
@@ -113,21 +117,36 @@ main {
 /*Estilização da galeria*/
 .galeria {
     padding-top: 4rem;
-    padding-bottom: 5rem;
+}
+
+.img-galery {
+    overflow: hidden;
+    margin: 2.2rem 0 0 0;
+}
+
+.img-galery img {
+    height: 100%;
+    width: 16rem;
+    border: 1px solid #fff;
+}
+
+.img-galery img:hover {
+    border: 1px solid #ffd500;
+    opacity: 70%;
 }
 
 /*Estilização da elenco*/
 .elenco {
     padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }
 
 .item-elenco {
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .img-elenco img {
-    width: 14rem;
+    width: 12.5rem;
     border: 1px solid #fdc500;
     background-color: #333;
 }
